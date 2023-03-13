@@ -1,7 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
 font-family: 'Roboto', sans-serif;
-font-family: 'Smokum', cursive;
 margin: 0%;
 }
 h1{
@@ -15,15 +14,16 @@ p{
 }
 section{
     display:flex;
+    margin-bottom: 100px;
 
 }
 .rf{
-    width:900px;
+    width:50%;
 padding-left: 10px;
 
 }
 .rf img{
-width: 100%;
+width: 80%;
 }
 .link-open{
     color: aliceblue;
@@ -37,6 +37,15 @@ width: 100%;
 .top{
 background-image: url(./istockphoto-1398473177-170667a.jpg);
 height: 500px;
-width: 70%;
 
 }
+.ss{
+    color:green;
+}
+.middle{
+    background-image: url(./What-is-Website.png);
+    background-repeat: no-repeat;
+ 
+}
+
+
