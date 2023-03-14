@@ -1,0 +1,109 @@
+body {
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+  margin: 0%;
+  background-color: #cfcfcf;
+}
+h1 {
+  font-size: 70px;
+  margin: 0;
+}
+p {
+  color: #fff;
+}
+.rg {
+  color: rgb(255, 255, 255);
+}
+
+.hero {
+  height: 100vh;
+  background-image: url("../asset/images/heroBg.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+}
+
+.heroDetails {
+  width: 50%;
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.link-open {
+  margin-top: 10px;
+  display: inline-block;
+  color: #333;
+  font-weight: bold;
+  font-size: 20px;
+  font: weight 700px;
+  text-decoration: none;
+  background: #fff;
+  padding: 15px 80px;
+  border-radius: 10px;
+  transition: 0.5s;
+  width: 100px;
+  text-align: center;
+}
+.link-open:hover {
+  background: #333;
+  color: #fff;
+}
+.ss {
+  color: green;
+}
+.middle {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  background: #1a1e20;
+  height: 300px;
+  padding: 0px 150px;
+}
+
+.middleCard {
+  border: dashed 2px #676767;
+  width: 210px;
+  height: 180px;
+  border-radius: 0px 40px 0px 0px;
+  transition: 1s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  line-height: 0;
+}
+.middleCard:hover {
+  border: solid 2px #676767;
+}
+.middleCard h3 {
+  font-size: 40px;
+  margin: 20px 0px;
+}
+.middleCard h4 {
+  font-size: 25px;
+  margin: 20px 0px;
+}
+.learn {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.box {
+  border-radius: 10px;
+  box-shadow: 10px 10px 30px rgb(98, 98, 98);
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-left: 10px;
+}
+.last {
+  background-image: url(./download.jfif);
+  background-repeat: no-repeat;
+}
+
+.heroImage {
+  height: 100%;
+}
